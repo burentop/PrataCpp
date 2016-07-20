@@ -8,9 +8,9 @@ int main()
     char dessert [ArSize];
 
     cout << "Enter your name:\n";
-    cin.getline(name, ArSize);
+    cin.get(name, ArSize).get();
     cout << "Enter your favorite dessert:\n";
-    cin.getline(dessert, ArSize);
+    cin.get(dessert, ArSize).get();
     cout << "I have some delicious " << dessert;
     cout << " for you, " << name << ".\n";
 
